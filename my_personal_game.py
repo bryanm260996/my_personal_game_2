@@ -3,10 +3,10 @@ import pygame
 import sys
 
 from game_parameters import *
-from GAME.healthy_food import shakes, yogurts
-from GAME.background import draw_background, add_shake, add_enemies, add_yogurt, add_enemies2, add_enemies3,  draw_background2, draw_background3
-from GAME.player import Player
-from GAME.enemy import enemies, enemies2, enemies3
+from healthy_food import shakes, yogurts
+from background import draw_background, add_shake, add_enemies, add_yogurt, add_enemies2, add_enemies3,  draw_background2, draw_background3
+from player import Player
+from enemy import enemies, enemies2, enemies3
 
 #initialize pygame
 pygame.init()
